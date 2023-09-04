@@ -51,8 +51,8 @@ import gnubg
 
 
 def playMatchSeries(statsFile=None,  # log file
-                    matchLength=7,
-                    noOfMatches=100,
+                    matchLength=1,
+                    noOfMatches=1,
                     sgfBasePath=None,  # optional
                     matBasePath=None):  # optional
     """Starts noOfMatches matchLength pointers. For every match
